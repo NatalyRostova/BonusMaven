@@ -6,5 +6,6 @@ public class Main {
         long expected = 30;
         long actual = service.calculate(1_000, true);
         System.out.println(expected + " == ? == " + actual);
+
     }
 }
